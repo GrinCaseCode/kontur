@@ -561,6 +561,9 @@ margin-bottom: 25px;
 .btn-main_filter {
     max-width: 100%;
 }
+.item-set__head img {
+    max-width: 96%;
+}
 }
 
 /* Custom, iPhone Retina */
