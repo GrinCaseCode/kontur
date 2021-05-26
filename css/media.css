@@ -373,6 +373,11 @@ body {
 .item-discount_4 .item-discount__head {
   padding-right: 30px;
 }
+.header-bottom .btn-main {
+  height: 45px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -823,6 +828,9 @@ body {
  }
  .sidebar-catalog {
   display: block !important;
+}
+.header-bottom .btn-main {
+  display: none !important;
 }
 }
 
