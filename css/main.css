@@ -1713,9 +1713,9 @@ p b {
 	left: 100%;
 }
 .item-article .link-main {
-	font-weight: 400;
+	font-weight: 400; 
 	margin-top: auto;
-}
+} 
 .row_articles > div {
 	margin-bottom: 30px;
 }

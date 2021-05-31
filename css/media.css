@@ -917,7 +917,7 @@ body {
   }
   .item-partner__name {
     font-size: 21px;
-    line-height: 32px;
+    line-height: 32px; 
 }
 .item-partner__text {
     font-size: 14px;
