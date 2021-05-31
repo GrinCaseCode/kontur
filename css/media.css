@@ -158,6 +158,22 @@
 .item-discount_3 .item-discount__head .title-big span {
   font-size: 24px;
 }
+
+.item-article {
+    padding: 15px;
+    }
+    .item-partner__content {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .item-partner__name {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .item-partner__text {
+    font-size: 17px;
+    line-height: 27px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -378,6 +394,17 @@ body {
   margin-left: 15px;
   margin-top: 15px;
 }
+
+.wrapper {
+    padding-top: 65px;
+}
+.about,
+.article {
+  line-height: 21px;
+}
+.about__image {
+  margin-bottom: 20px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -595,6 +622,45 @@ body {
 .discounts {
   padding-top: 30px;
 }
+
+.item-article {
+  padding: 25px;
+}
+.news-page {
+  padding-top: 25px;
+}
+.news-page .title-big {
+  padding-bottom: 15px;
+}
+.list-page li {
+  margin-bottom: 15px;
+}
+.article__image {
+  margin-bottom: 20px;
+}
+.article {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.article .title-big {
+  padding-bottom: 20px;
+}
+.title-page {
+    font-size: 23px;
+    }
+    .title-block {
+    font-size: 20px;
+  }
+  .about {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .about .title-big {
+    padding-bottom: 15px;
+  }
+  .partners {
+    padding-top: 25px;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -792,6 +858,75 @@ body {
 }
 .item-discount_4 .item-discount__head {
   padding-right: 11px;
+}
+
+
+.item-article {
+  padding: 15px;
+}
+.item-article__image {
+  height: 190px;
+  margin-bottom: 15px;
+}
+.item-article__name {
+    font-size: 16px;
+    line-height: 25px;
+    }
+    .item-article__text {
+    line-height: 23px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    }
+    .date-article {
+    padding: 7px 11px;
+    padding-right: 12px;
+    width: 65px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .date-article strong {
+    padding-bottom: 2px;
+    font-size: 19px;
+  }
+  .article__image img {
+    border-radius: 5px;
+  }
+  .title-page {
+    font-size: 18px;
+}
+.title-block {
+    font-size: 16px;
+}
+.article .title-block {
+    padding-bottom: 14px;
+}
+.article p {
+  margin-bottom: 15px;
+}
+.list-page_columns {
+  columns: 1;
+}
+.partners .title-big {
+    padding-bottom: 22px;
+}
+.item-partner__image {
+    height: 170px;
+  }
+  .item-partner__content {
+    padding-top: 15px;
+  }
+  .item-partner__name {
+    font-size: 21px;
+    line-height: 32px;
+}
+.item-partner__text {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.row_partners > div {
+  margin-bottom: 30px;
 }
 }
 
