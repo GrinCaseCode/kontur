@@ -1708,7 +1708,7 @@ p b {
 .link-main i {
     top: 9px;
     margin-left: 11px;
-    font-size: 11px;
+    font-size: 11px; 
 	position: absolute;
 	left: 100%;
 }
