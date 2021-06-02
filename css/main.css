@@ -1784,6 +1784,7 @@ h2,
 font-weight: 700;
     line-height: 1.2;
 }
+.article h2,
 .article .title-page {
 	padding-bottom: 10px;
 }

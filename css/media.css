@@ -52,6 +52,7 @@
   .item-billbord:nth-child(2) {
     width: 31.8%;
   }
+  h1,
   .title-big {
     font-size: 30px;
     line-height: 44px;
@@ -562,6 +563,7 @@ body {
 .item-etap {
 	margin-bottom: 0;
 }
+h1,
 .title-big {
   font-size: 26px;
   line-height: 40px;
@@ -707,12 +709,15 @@ body {
   padding-top: 25px;
   padding-bottom: 40px;
 }
+.article h1,
 .article .title-big {
   padding-bottom: 20px;
 }
+h2,
 .title-page {
   font-size: 23px;
 }
+h2,
 .title-block {
   font-size: 20px;
 }
@@ -737,6 +742,7 @@ body {
    margin-left: 7px;
    max-width: 129px;
  }
+ h1,
  .title-big {
   font-size: 22px;
   line-height: 31px;
@@ -959,18 +965,23 @@ body {
 .article__image img {
   border-radius: 5px;
 }
+h2,
 .title-page {
   font-size: 18px;
 }
+h3,
 .title-block {
   font-size: 16px;
 }
+.article h3,
 .article .title-block {
   padding-bottom: 14px;
 }
 .article p {
   margin-bottom: 15px;
 }
+.article ul,
+.article ol,
 .list-page_columns {
   columns: 1;
 }
