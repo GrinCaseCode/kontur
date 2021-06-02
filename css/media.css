@@ -192,7 +192,7 @@
   min-height: 42px;
 }
 .menu ul li {
-  margin-top: 7px;
+  margin-bottom: 7px;
 }
 .menu li:nth-child(2) .menu-dropdown {
   left: -160px;
@@ -435,7 +435,8 @@ body {
   margin-bottom: 20px;
 }
 .menu-dropdown {
-  width: 100%;
+  padding: 15px 15px;
+  width: 100% !important;
   position: relative;
   opacity: 1;
   display: none;
@@ -446,10 +447,6 @@ body {
   padding-top: 15px;
   min-height: initial;
   text-align: left;
-}
-.menu-dropdown {
-  padding-top: 0;
-  padding-bottom: 0;
 }
 .has_child::after {
   position: absolute;
