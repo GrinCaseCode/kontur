@@ -19,6 +19,16 @@
   margin-left: -25px;
   width: 515px;
 }
+
+.menu li:nth-child(2) .menu-dropdown {
+  left: -193px;
+}
+.menu li:nth-child(3) .menu-dropdown {
+  left: -423px;
+}
+.item-partner__image {
+    height: 185px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -160,19 +170,38 @@
 }
 
 .item-article {
-    padding: 15px;
-    }
-    .item-partner__content {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    .item-partner__name {
-    font-size: 26px;
-    line-height: 35px;
-  }
-  .item-partner__text {
-    font-size: 17px;
-    line-height: 27px;
+  padding: 15px;
+}
+.item-partner__content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.item-partner__name {
+  font-size: 26px;
+  line-height: 35px;
+}
+.item-partner__text {
+  font-size: 17px;
+  line-height: 27px;
+}
+.menu-dropdown {
+  width: 915px;
+}
+.menu-dropdown__title {
+  font-size: 15px;
+  min-height: 42px;
+}
+.menu ul li {
+  margin-top: 7px;
+}
+.menu li:nth-child(2) .menu-dropdown {
+  left: -160px;
+}
+.menu li:nth-child(3) .menu-dropdown {
+  left: -343px;
+}
+.item-partner__image {
+    height: 138px;
 }
 }
 
@@ -396,7 +425,7 @@ body {
 }
 
 .wrapper {
-    padding-top: 65px;
+  padding-top: 65px;
 }
 .about,
 .article {
@@ -404,6 +433,45 @@ body {
 }
 .about__image {
   margin-bottom: 20px;
+}
+.menu-dropdown {
+  width: 100%;
+  position: relative;
+  opacity: 1;
+  display: none;
+  left: 0 !important;
+  visibility: visible;
+}
+.menu-dropdown__title {
+  padding-top: 15px;
+  min-height: initial;
+  text-align: left;
+}
+.menu-dropdown {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.has_child::after {
+  position: absolute;
+  top: 14px;
+  right: 5px;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  content: "\f078";
+}
+.menu a {
+  padding: 10px 5px;
+}
+.item-partner__image {
+    height: 167px;
 }
 }
 
@@ -646,21 +714,24 @@ body {
   padding-bottom: 20px;
 }
 .title-page {
-    font-size: 23px;
-    }
-    .title-block {
-    font-size: 20px;
-  }
-  .about {
-    padding-top: 20px;
-    padding-bottom: 30px;
-  }
-  .about .title-big {
-    padding-bottom: 15px;
-  }
-  .partners {
-    padding-top: 25px;
-  }
+  font-size: 23px;
+}
+.title-block {
+  font-size: 20px;
+}
+.about {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.about .title-big {
+  padding-bottom: 15px;
+}
+.partners {
+  padding-top: 25px;
+}
+.item-partner__image {
+    height: 190px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -754,14 +825,14 @@ body {
   max-width: 96%;
 }
 .item-service { 
-  padding: 15px;
+  padding: 15px !important;
 }
 .item-service__image {
   height: 180px;
   min-height: 180px;
 }
 .item-service__name {
-  font-size: 18px;
+  font-size: 18px; 
   line-height: 26px;
 }
 .item-service p {
@@ -869,36 +940,36 @@ body {
   margin-bottom: 15px;
 }
 .item-article__name {
-    font-size: 16px;
-    line-height: 25px;
-    }
-    .item-article__text {
-    line-height: 23px;
-    margin-top: 4px;
-    margin-bottom: 10px;
-    }
-    .date-article {
-    padding: 7px 11px;
-    padding-right: 12px;
-    width: 65px;
-    font-size: 12px;
-    line-height: 17px;
-  }
-  .date-article strong {
-    padding-bottom: 2px;
-    font-size: 19px;
-  }
-  .article__image img {
-    border-radius: 5px;
-  }
-  .title-page {
-    font-size: 18px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.item-article__text {
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.date-article {
+  padding: 7px 11px;
+  padding-right: 12px;
+  width: 65px;
+  font-size: 12px;
+  line-height: 17px;
+}
+.date-article strong {
+  padding-bottom: 2px;
+  font-size: 19px;
+}
+.article__image img {
+  border-radius: 5px;
+}
+.title-page {
+  font-size: 18px;
 }
 .title-block {
-    font-size: 16px;
+  font-size: 16px;
 }
 .article .title-block {
-    padding-bottom: 14px;
+  padding-bottom: 14px;
 }
 .article p {
   margin-bottom: 15px;
@@ -907,23 +978,23 @@ body {
   columns: 1;
 }
 .partners .title-big {
-    padding-bottom: 22px;
+  padding-bottom: 22px;
 }
 .item-partner__image {
-    height: 170px;
-  }
-  .item-partner__content {
-    padding-top: 15px;
-  }
-  .item-partner__name {
-    font-size: 21px;
-    line-height: 32px; 
+  height: 170px;
+}
+.item-partner__content {
+  padding-top: 15px;
+}
+.item-partner__name {
+  font-size: 21px;
+  line-height: 32px; 
 }
 .item-partner__text {
-    font-size: 14px;
-    line-height: 23px;
-    margin-bottom: 10px;
-    margin-top: 5px;
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 .row_partners > div {
   margin-bottom: 30px;
